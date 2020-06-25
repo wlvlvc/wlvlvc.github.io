@@ -27,6 +27,7 @@ body{
 
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  max-width: 1000px
 }
 
 #header a:hover {
@@ -45,6 +46,7 @@ body{
 }
 
 .container {
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -120,4 +122,13 @@ p {
 
 .post-container:nth-child(even) {
   background-color: #f2f2f2;
+}
+
+.post-container {
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+#content {
+  max-width: none;
 }
